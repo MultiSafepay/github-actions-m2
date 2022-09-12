@@ -40,7 +40,7 @@ inputs:
     default: '1'
 runs:
   using: 'docker'
-  image: 'docker://multisafepaydev/magento-integration-tests-action:7.4-latest'
+  image: 'docker://multisafepaydev/magento-integration-tests-action:7.4'
   env:
     MODULE_NAME: ${{ inputs.module_name }}
     COMPOSER_NAME: ${{ inputs.composer_name }}
